@@ -1,0 +1,48 @@
+@import '../../assets/style/function.less';
+
+.hello{
+    width: 100%;
+    animation: fadein .5s ease-in .5s both;
+    cursor: pointer;
+    outline: 0;
+    padding: 40px 40px 100px;
+    h1.ignore{
+        font-size: 28px;
+        color: #333;
+        text-align: center;
+    }
+    p.content{
+        margin: 0;
+    }
+    p.ignore{
+        font-size: 14px;
+        line-height: 1.6;
+        color: #666;
+    }
+    code{
+        padding: 1px 6px;
+        background: rgba(27,31,35,0.05);
+        border-radius: 4px;
+        margin: 0 4px;
+    }
+    code.ignore{
+        font-size: 16px;
+    }
+    pre{
+        padding: 16px;
+        background: rgba(27,31,35,0.05);
+        border-radius: 3px;
+        overflow: auto;
+    }
+    pre.ignore{
+        font-size: 14px;
+    }
+}
+@keyframes fadein {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
