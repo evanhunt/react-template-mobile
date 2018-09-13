@@ -39,10 +39,6 @@
         "*.js": [
             "npm run lint:eslint:fix",
             "git add --force"
-        ],
-        "*.json": [
-            "npm run prettify",
-            "git add --force"
         ]
     },
     "pre-commit": "lint:staged",
