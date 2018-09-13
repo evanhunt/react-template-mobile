@@ -67,11 +67,7 @@ module.exports = (options) => ({
             {
                 // Preprocess 3rd party .css files located in node_modules
                 test: /\.css/,
-                exclude: /node_modules/,
-                use: [
-                    MiniCssExtractPlugin.loader,
-                    'css-loader'
-                ],
+                use: [MiniCssExtractPlugin.loader, 'css-loader'],
             },
             {
                 test: /\.(eot|otf|ttf|woff|woff2)$/,

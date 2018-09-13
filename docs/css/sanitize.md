@@ -11,7 +11,3 @@ variables.
 
 See the [official documentation](https://github.com/10up/sanitize.css) for more
 information.
-
----
-
-_Don't like this feature? [Click here](remove.md)_

@@ -7,7 +7,7 @@
 
 // Needed for es6 generator support
 import 'babel-polyfill';
-import '@assets/style/normalize.css';
+import 'sanitize.css';
 import '@assets/style/global.less';
 
 // Import all the third party stuff

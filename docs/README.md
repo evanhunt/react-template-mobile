@@ -17,15 +17,13 @@
   - [redux-saga](js/redux-saga.md)
   - [i18n](js/i18n.md)
   - [routing](js/routing.md)
-- [Maintenance](maintenance)
-  - [Dependency Update](maintenance/dependency.md)
 
 ## Overview
 
 ### Quickstart
 
 
-1.  Open [localhost:3000](http://localhost:3000) to see it in action.
+1.  Open [localhost:9090](http://localhost:9090) to see it in action.
 
     - Add a Github username to see Redux and Redux Sagas in action: effortless
       async state updates and side effects are now yours :)
@@ -37,17 +35,9 @@
       globally addressable to any device, anywhere. Not bad for a locally-running
       Single Page App.
 
-1.  Time to build your own app: run
-
-    ```shell
-    npm run clean
-    ```
-
-    ...and use the built-in generators to start your first feature.
-
 ### Development
 
-Run `npm start` to see your app at `localhost:3000`
+Run `npm start` to see your app at `localhost:9090`
 
 ### Building & Deploying
 
