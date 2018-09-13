@@ -36,20 +36,16 @@
         "prettify": "prettier --write"
     },
     "lint-staged": {
-        "*.js": [
-            "npm run lint:eslint:fix",
-            "git add"
-        ],
-        "*.json": [
-            "prettier --write",
-            "git add"
-        ]
-    },
-    "linters": {
-        "*.json": [
-            "prettier --write",
-            "git add"
-        ]
+        "linters": {
+            "*.js": [
+                "npm run lint:eslint:fix",
+                "git add"
+            ],
+            "*.json": [
+                "prettier --write",
+                "git add"
+            ]
+        },
     },
     "pre-commit": "lint:staged",
     "babel": {
