@@ -41,7 +41,7 @@
             "git add --force"
         ],
         "*.json": [
-            "prettier --write",
+            "npm run prettify",
             "git add --force"
         ]
     },
